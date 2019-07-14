@@ -23,7 +23,7 @@ Description: This package adds collective parallel read and write capability
     collective mode, resulting in faster parallel performance.
     Performance improvement is conditional on a parallel file system.
 SystemRequirements: OpenMPI (>= 1.5.4) on Solaris, Linux and Mac.
-        (Parallel) HDF5 and (Parallel) NetCDF4 (4.1 or later)
+        (Parallel) HDF5 and (Parallel) NetCDF4 (4.3.1 or later)
         libraries. No MPI library required on Windows.
 URL: http://r-pbd.org/
 BugReports: http://group.r-pbd.org/
