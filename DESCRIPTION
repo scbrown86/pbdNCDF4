@@ -2,8 +2,8 @@ Package: pbdNCDF4
 Version: 0.1-5
 Date: 2019-07-13
 Title: Interface to Parallel Unidata NetCDF4 Format Data Files
-Authors@R: c(person("Pragneshkumar", "Patel", role = c("aut", "cre")),
-    person("George", "Ostrouchov", role = "aut", email = "ostrouchovg@ornl.gov"),
+Authors@R: c(person("Pragneshkumar", "Patel", role = "aut"),
+    person("George", "Ostrouchov", role = c("aut", "cre"), email = "ostrouchovg@ornl.gov"),
     person("Wei-Chen", "Chen", role = "aut"),
     person("Drew", "Schmidt", role = "aut"),
     person("David", "Pierce", role = "aut"))
