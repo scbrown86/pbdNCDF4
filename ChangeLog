@@ -1,6 +1,13 @@
+2019-07-14: Ver 0.1-6
+  * Bumping version to reflect new NetCDF >= 4.3.1 requirement
+  * Tested with gcc-5.3.0, openmpi-2.1.1, netcdf-4.3.3.1
+  * Changed maintainer
+
 2019-07-13: Ver 0.1-5
   * Test with openmpi-4.0.1, hdf5-1.10.5 (--enable-parallel), and
     netcdf-c-4.7.0 (--enable-netcdf4).
+  * Changed includes to reflect Unidata removal of netcdf.h include from
+	netcdf_par.h
 
 2016-10-25: Ver 0.1-5
   * Fixed compiler warnings and several serious static analyzer bugs.
