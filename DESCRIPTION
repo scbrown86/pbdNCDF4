@@ -1,9 +1,9 @@
 Package: pbdNCDF4
-Version: 0.1-5
-Date: 2019-07-13
+Version: 0.1-6
+Date: 2019-07-14
 Title: Interface to Parallel Unidata NetCDF4 Format Data Files
-Authors@R: c(person("Pragneshkumar", "Patel", role = c("aut", "cre"), email = "pragnesh@utk.edu"),
-    person("George", "Ostrouchov", role = "aut"),
+Authors@R: c(person("Pragneshkumar", "Patel", role = "aut"),
+    person("George", "Ostrouchov", role = c("aut", "cre"), email = "ostrouchovg@ornl.gov"),
     person("Wei-Chen", "Chen", role = "aut"),
     person("Drew", "Schmidt", role = "aut"),
     person("David", "Pierce", role = "aut"))
@@ -23,10 +23,10 @@ Description: This package adds collective parallel read and write capability
     collective mode, resulting in faster parallel performance.
     Performance improvement is conditional on a parallel file system.
 SystemRequirements: OpenMPI (>= 1.5.4) on Solaris, Linux and Mac.
-        (Parallel) HDF5 and (Parallel) NetCDF4 (4.1 or later)
+        (Parallel) HDF5 and (Parallel) NetCDF4 (4.3.1 or later)
         libraries. No MPI library required on Windows.
 URL: http://r-pbd.org/
 BugReports: http://group.r-pbd.org/
 MailingList: Please send questions and comments regarding pbdR to
         RBigData@gmail.com
-Maintainer: Pragneshkumar Patel <pragnesh@utk.edu>
+Maintainer: George Ostrouchov <ostrouchovg@ornl.gov>
