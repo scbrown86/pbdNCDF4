@@ -2,8 +2,8 @@ Package: pbdNCDF4
 Version: 0.1-5
 Date: 2019-07-13
 Title: Interface to Parallel Unidata NetCDF4 Format Data Files
-Authors@R: c(person("Pragneshkumar", "Patel", role = c("aut", "cre"), email = "pragnesh@utk.edu"),
-    person("George", "Ostrouchov", role = "aut"),
+Authors@R: c(person("Pragneshkumar", "Patel", role = c("aut", "cre")),
+    person("George", "Ostrouchov", role = "aut", email = "ostrouchovg@ornl.gov"),
     person("Wei-Chen", "Chen", role = "aut"),
     person("Drew", "Schmidt", role = "aut"),
     person("David", "Pierce", role = "aut"))
@@ -29,4 +29,4 @@ URL: http://r-pbd.org/
 BugReports: http://group.r-pbd.org/
 MailingList: Please send questions and comments regarding pbdR to
         RBigData@gmail.com
-Maintainer: Pragneshkumar Patel <pragnesh@utk.edu>
+Maintainer: George Ostrouchov <ostrouchovg@ornl.gov>
