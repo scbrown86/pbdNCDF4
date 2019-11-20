@@ -59,7 +59,7 @@
   path <- paste(netcdf4.bin, netcdf4.deps, Sys.getenv("PATH"), sep = ";")
 
   ### Add dll files
-  netcdf4.msvcp100 <- paste(netcdf4.deps, "msvcp100.dll", sep = "")
+  netcdf4.msvcp100 <- paste(netcdf4.deps, "msvcp140.dll", sep = "")
   netcdf4.msvcr100 <- paste(netcdf4.deps, "msvcr100.dll", sep = "")
   netcdf4.zlib <- paste(netcdf4.deps, "zlib.dll", sep = "")
   netcdf4.hdf5 <- paste(netcdf4.deps, "hdf5.dll", sep = "")
